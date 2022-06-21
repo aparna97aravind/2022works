@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(71, 75, 75);
+  color: rgb(255, 248, 248);
+  margin: 20px;
+  font-size: x-large;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.square {
+  background-color: rgb(184, 166, 169);
+  border: 1px solid rgb(0, 0, 0);
+  height: 100px;
+  width: 100px;
+  padding: 0px;
+  margin: 1px;
+  text-align: center;
+  font-size: 100%;
+}
+
+.board-row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.board {
+  background-color: yellow;
+  color : black;
+  font-size: xx-large;
+  padding: 10px;
+}
+
+.square:focus {
+  outline: none;
+}
+.status {
+  font-size: large;
+}
